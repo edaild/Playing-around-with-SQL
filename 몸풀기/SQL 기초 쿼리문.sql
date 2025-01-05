@@ -15,6 +15,10 @@ create table user(num int auto_increment,
 # table 조회
 select * from user;
 
+# table 조건 조회
+select * from user where num = 2;
+
+
 # database 레코드 추가
 insert into user(id, password, name, email) value("User01","user1234","User01","user01@g");
 insert into user(id, password, name, email) value("User02","user2222","User02","user02@g");
@@ -33,3 +37,4 @@ drop table user;
 
 # databass 삭제
 drop database user;
+
