@@ -1,1 +1,1 @@
-# Experimenting-with-SQL / SQL을 실험해봐요
+# Playing around with SQL / SQL을 가지고 놀아요
