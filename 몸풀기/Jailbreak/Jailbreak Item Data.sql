@@ -43,6 +43,6 @@ insert into GunTable(name,price,bulletCount,damage,gamePass) value ("플라즈�
 insert into GunTable(name,price,bulletCount,damage,gamePass) value ("플라즈마 샷건","50000","4","6","N");
 insert into GunTable(name,price,bulletCount,damage,gamePass) value ("로켓 런처","40000","10","76","N");
 
+# 데이터 조회
 select * from ItemTable order by price;
 select * from GunTable order by price;
-
